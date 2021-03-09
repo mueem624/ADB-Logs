@@ -7,8 +7,6 @@ from framework.model.utility.FileService import FileService
 from datetime import datetime, timedelta 
 
 
-
-
 class safeAdbClient:
     def __init__(self, host=None, port=None, verbose=False):
         self._verbose = verbose
